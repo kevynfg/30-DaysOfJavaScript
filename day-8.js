@@ -1,10 +1,6 @@
-// Complete the factorial function below.
-function factorial(n) {
-  if (n == 0) {
-    return 1;
-  } else {
-    return n * factorial(n - 1);
-  }
+function main() {
+  var n = parseInt(readLine());
+  arr = readLine().split(' ');
+  arr = arr.map(Number);
+  console.log(arr.reverse().join(' '));
 }
-
-console.log(factorial(4));

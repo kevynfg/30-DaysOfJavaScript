@@ -1,17 +1,15 @@
-// Complete the solve function below.
 function main() {
-  solve(meal_cost, tip_percent, tax_percent);
-}
+  var i = 4;
+  var d = 4.0;
+  var s = 'HackerRank ';
+  // Declare second integer, double, and String variables.
 
-function solve(meal_cost, tip_percent, tax_percent) {
-  const meal_cost = parseFloat(readLine());
+  // Read and save an integer, double, and String to your variables.
 
-  const tip_percent = parseInt(readLine(), 10);
+  // Print the sum of both integer variables on a new line.
 
-  const tax_percent = parseInt(readLine(), 10);
+  // Print the sum of the double variables on a new line.
 
-  mealCost = Math.round(
-    mealCost + (mealCost * tipPercent) / 100 + (mealCost * taxPercent) / 100
-  );
-  console.log('The total meal cost is ' + mealCost);
+  // Concatenate and print the String variables on a new line
+  // The 's' variable above should be printed first.
 }

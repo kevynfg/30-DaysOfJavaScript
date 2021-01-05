@@ -1,8 +1,17 @@
+// Complete the solve function below.
 function main() {
-  var N = parseInt(readLine());
-  if (N % 2 !== 0 || (N >= 6 && N <= 20)) {
-    console.log('Weird');
-  } else {
-    console.log('Not Weird');
-  }
+  solve(meal_cost, tip_percent, tax_percent);
+}
+
+function solve(meal_cost, tip_percent, tax_percent) {
+  const meal_cost = parseFloat(readLine());
+
+  const tip_percent = parseInt(readLine(), 10);
+
+  const tax_percent = parseInt(readLine(), 10);
+
+  mealCost = Math.round(
+    mealCost + (mealCost * tipPercent) / 100 + (mealCost * taxPercent) / 100
+  );
+  console.log('The total meal cost is ' + mealCost);
 }
